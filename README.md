@@ -1,4 +1,4 @@
-## kippt-alfred-integration
+My goal is create a Kippt bookmarks/clips/lists searcher for an Alfred v2 workflow. 
 
 ## Resources
 + [Kippt's API Github repo](https://github.com/kippt/api-documentation)
