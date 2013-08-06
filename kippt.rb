@@ -9,11 +9,10 @@ account.username #=> "vesan"
 account = client.account(true) # includes the API token
 account.api_token    #=> "2544d6bfddf5893ec8617"
 
-# puts "Search kippt: "
-# kippt = gets.chomp
+puts "Search kippt: "
+kippt = gets.chomp
+search = client.clips.search("kippt")
 
-# client.clips.search("kippt")
+# clips = client.clips.all(limit: 25, offset: 50)
 
-lists = client.clips.all(limit: 25, offset: 50)
-
-puts "#{lists}"
+print "#{search}"
