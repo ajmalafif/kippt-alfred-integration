@@ -10,8 +10,9 @@ client = Kippt::Client.new(username: "ajmalafif", token: "ec4d9e2988a179cc5342c6
 # account.api_token    #=> "2544d6bfddf5893ec8617"
 
 puts "Search kippt: "
-kippt = gets
-search = client.clips.search(q: "kippt")
+@habit = gets.chomp
+# puts habit
+search = client.clips.search(q: @habit)
 
 # clips = client.clips.all(limit: 25, offset: 50)
 
