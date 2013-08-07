@@ -16,3 +16,9 @@ search = client.clips.search("kippt")
 # clips = client.clips.all(limit: 25, offset: 50)
 
 print "#{search}"
+
+# right now stuck on how to print out lists or clips instead
+# of having an output printed like this right now 
+# => <Kippt::ClipCollection:0x007f959ba024d0>
+
+
